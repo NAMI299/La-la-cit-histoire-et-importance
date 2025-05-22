@@ -1,192 +1,171 @@
-* { 
-    box-sizing: border-box;
-    overflow-x: hidden;
-          }
- 
-          .NEF{
-             margin-left: 80px;
-          }
- 
- body{
-            font-family:"Segoe UI", sans-serif ;
-            background-color: #fcf9f9;
-            margin: 0;
-            padding: 0;
-         }
-         
- 
-                .célébrité {
-                   text-align: center;
-                font-family:  "Segoe UI", sans-serif;
-                height: 2500px;
-                width: 250px;
-                padding: 22px;
-                background-color: white;
-                float: left;
-                font-family:Garamond;
-                overflow: hidden;
-                border-radius: 20px;
-                margin-top: 30px;
-               }
-                  
- 
-            .célébritée {
-             text-align: center;
-                font-family:  "Segoe UI", sans-serif;
-                height: 2500px;
-                width: 240px;
-                padding: 22px;
-                background-color: white;
-                float: right;
-                font-family:Garamond;
-                border-radius:20px;
-                overflow: hidden;
-                margin-top: 30px;
- 
-      }
- 
-      img{
-       width: 200px;
-       height: 200px;
-       border-radius: 10px;
-    }
- 
- 
-    .rde{
-       
-          font-size: 20px;
-          
-         
- 
-           
-        
- }
-  
- 
-          
-        header{
-       width: 1221px;
-          background-size: cover;
-          height: 200px;
-          background-color: rgb(227, 168, 191);
-          font-size: 35px;
-          
-         
- 
-           
-        
- }
- 
- h1{
-    color: white;
-    font-family:"Montserrat" ;
- }
- 
- .dir{
-    font-family: "Segoe UI", sans-serif;  
-    margin-right:270px;
-     margin-left: 270px;
-      padding: 25px;
-       background-color: white;
-       position: absolute;
-       border-radius: 20px;
-       height: 5900px;
-       overflow: hidden;
-       margin-top: 30px;
- 
-    }
-         
-   
- .er{
-    height: 500px;
-    width: 400px;
-    background-image: url(laici.jpeg);
- background-size: cover;
-    margin-left: 100px;
-    margin-right: 100px;
- 
- }
- 
- .testimony{
-    background-color: rgb(151, 244, 135);
-    border-radius: 20px;
-    height: 300px;
-    width: 280px;
-    float: left;
-    margin-top: 60px;
-    text-align: center;
-    padding: 20px;
-    overflow: hidden;
- }
- 
- .testimony2{
-    background-color: rgb(237, 158, 182);
-    border-radius: 20px;
-    height: 300px;
-    width: 280px;
-    float: right;
-    text-align: center;
-    margin-top: 60px;
-    padding:20px;
-    overflow: hidden;
-    
-    
- }
- 
- h5{
-    display: flex;
-    align-items: end;
-    justify-content: right;
- }
- 
- .astéxir{
-    margin-top: 370px;
- }
-             .la{
-                text-align: center;
-                font-size: 35px;
-                color: #0f0303;
-                background-color: rgb(255, 255, 255);
-               margin-top: 70px;
-               margin-left: 280px;
-               margin-right: 280px;
-               font-family: Garamond;
-               border-radius: 20px;
-             }
-    
-             .titre{
-                margin-top: 340px
-               
-             }
- 
- .r {
-    background-color: #efe3e3;
-    border-radius: 20px;
- }
- 
- 
-             .z{
-                font-size: 60px;
-               margin-right: 10px;
-                margin-top: 10px;
-               
-             }
- 
-             
- 
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
- 
-             footer {
-                background-color: rgb(227, 168, 191);
-                height: 200px; 
-                width: 2000px;
-                margin-top: 6070px;
- 
-             }
-            
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
-            
-                    
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fcf9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.NEF {
+  margin-left: 5vw;
+}
+
+header {
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  background-color: rgb(227, 168, 191);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.célébrité,
+.célébritée {
+  text-align: center;
+  height: auto;
+  width: 90%;
+  max-width: 250px;
+  padding: 1.5rem;
+  background-color: white;
+  font-family: Garamond, serif;
+  border-radius: 20px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.rde {
+  font-size: 1.2rem;
+}
+
+.dir {
+  font-family: "Segoe UI", sans-serif;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 1200px;
+  height: auto;
+  overflow: hidden;
+}
+
+.er {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  background-image: url(laici.jpeg);
+  background-size: cover;
+  margin: 2rem auto;
+}
+
+.testimony,
+.testimony2 {
+  background-color: rgb(151, 244, 135);
+  border-radius: 20px;
+  height: auto;
+  width: 90%;
+  max-width: 280px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.testimony2 {
+  background-color: rgb(237, 158, 182);
+}
+
+h5 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.astéxir {
+  margin-top: 4rem;
+}
+
+.la {
+  text-align: center;
+  font-size: 2rem;
+  color: #0f0303;
+  background-color: #fff;
+  margin: 3rem auto;
+  font-family: Garamond, serif;
+  border-radius: 20px;
+  padding: 1rem;
+  max-width: 90%;
+}
+
+.titre {
+  margin-top: 3rem;
+}
+
+.r {
+  background-color: #efe3e3;
+  border-radius: 20px;
+}
+
+.z {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+nav ul {
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  background-color: rgb(227, 168, 191);
+  height: auto;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .célébrité {
+    float: left;
+    margin-left: 2rem;
+  }
+
+  .célébritée {
+    float: right;
+    margin-right: 2rem;
+  }
+
+  .testimony,
+  .testimony2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 2rem;
+  }
+
+  .dir {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .la {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
