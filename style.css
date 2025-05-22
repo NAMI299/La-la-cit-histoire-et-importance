@@ -65,7 +65,7 @@
  
           
         header{
-       width: 2000px;
+       width: auto;
           background-size: cover;
           height: 200px;
           background-color: rgb(227, 168, 191);
@@ -182,7 +182,8 @@
              footer {
                 background-color: rgb(227, 168, 191);
                 height: 200px; 
-                width: 2000px;
+                width: auto;
                 margin-top: 6070px;
  
              }
+             
